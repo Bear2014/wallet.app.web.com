@@ -1,0 +1,266 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	 //    {
+	 //    	"path": "pages/login/login",
+	 //    	"style": {
+	 //    		 "navigationStyle": "custom",
+		// 		 "app-plus": {
+		// 			// "softinputMode": "adjustResize",
+		// 			"softinputNavBar": "none"
+		// 		}
+	 //    	}
+	 //    },
+	 {
+		"path": "pages/index/index",
+		"style": {
+			 "navigationStyle": "custom",
+			 "backgroundColor": "#161616"
+		}
+	},
+		{
+			"path": "pages/register/register",
+			"style": {
+				 "navigationStyle": "custom",
+				 "app-plus": {
+					// "softinputMode": "adjustResize",
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		// {
+		// 	"path": "pages/resetPwd/resetPwd",
+		// 	"style": {
+		// 		 "navigationStyle": "custom",
+		// 		 "app-plus": {
+		// 			// "softinputMode": "adjustResize",
+		// 			"softinputNavBar": "none"
+		// 		}
+		// 	}
+		// },
+		
+		{
+			"path": "pages/managebook/managebook",
+			"style": {
+				 "navigationStyle": "custom",
+				 "backgroundColor": "#161616"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				 "navigationStyle": "custom",
+				 "backgroundColor": "#161616"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				 "navigationStyle": "custom",
+				 "backgroundColor": "#161616"
+			}
+		},
+		// my 子页面 ， 修改密码
+		{
+			"path": "pages/myPage/changepaw/changepaw",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myPage/changepay/changepay",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myPage/authentication/authentication",
+			"style": {
+				 "navigationStyle": "custom",
+				 "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/myPage/setup/setup",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		// index 的子页面
+		{
+			"path": "pages/indexPage/managepayments/managepayments",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/addpay/addpay",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/tradingfloor/tradingfloor",
+			"style": {
+				 "navigationStyle": "custom",
+				 // "disableSwipeBack": true,
+				 "app-plus": {
+				 	"background": "#111111"
+					// "popGesture": "none"
+				 }
+			}
+		},
+		{
+			"path": "pages/indexPage/tradingbuy/tradingbuy",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/sellcoins/sellcoins",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/fasttrack/fasttrack",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/HelpCenter/HelpCenter",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/transaccounts/transaccounts",
+			"style": {
+				 "navigationStyle": "custom",
+				 "app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/indexPage/walletrecords/walletrecords",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/walletredetail/walletredetail",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/customer/customer",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/chatServer/chatServer",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/fasttrackdetail/fasttrackdetail",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/indexPage/transOrder/transOrder",
+			"style": {
+				 "navigationStyle": "custom",
+				 "app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		// 订单页面
+		{
+			"path": "pages/orderPage/orderinfo/orderinfo",
+			"style": {
+				 "navigationStyle": "custom",
+				 // "disableSwipeBack": true,
+				 "app-plus": {
+				 	// "popGesture": "none"
+				 }
+			}
+		},
+		{
+			"path" : "components/marquee/marquee",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/historyOrder/historyOrder",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"rpxCalcMaxDeviceWidth": 960, // rpx 计算所支持的最大设备宽度，单位 px，默认值为 960
+		"rpxCalcBaseDeviceWidth": 375, // rpx 计算使用的基准设备宽度，设备实际宽度超出 rpx 计算所支持的最大设备宽度时将按基准宽度计算，单位 px，默认值为 375
+		"rpxCalcIncludeWidth": 750, // rpx 计算特殊处理的值，始终按实际的设备宽度计算，单位 rpx，默认值为 750
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#161616",
+		"backgroundColor": "#161616",
+		"app-plus": {
+			"animationType": "fade-in",
+			"animationDuration": 300,
+			"background": "#161616",
+			"bounce": "none"
+		}
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#001eca",
+		"borderStyle": "#fff",
+		"backgroundColor": "#FFFFFF",
+		"iconWidth": "24px",
+		"width":"848rpx",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icons/icon_homepage_bottom.png",
+				"selectedIconPath": "static/icons/icon_homepage_bottom_right.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/icons/icon_dingdan.png",
+				"selectedIconPath": "static/icons/icon_dingdan_right.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icons/icon_my_bottom.png",
+				"selectedIconPath": "static/icons/icon_my_bottom_right.png",
+				"text": "我的"
+			}
+			
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

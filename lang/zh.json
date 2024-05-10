@@ -1,0 +1,13 @@
+{
+	"index":{
+		"hometitle":"标题信息",
+		"ceshi":"测试"
+	},
+	"tabbar":{
+		"search":"搜索",
+		"place_order":"下单",
+		"history":"历史",
+		"order_list":"订单",
+		"more":"更多"
+	}
+}

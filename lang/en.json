@@ -1,0 +1,13 @@
+{
+	"index":{
+		"hometitle":"Information",
+		"ceshi":"demo"
+	},
+	"tabbar":{
+		"search":"search",
+		"place_order":"place order",
+		"history":"history",
+		"order_list":"order",
+		"more":"more"
+	}
+}
